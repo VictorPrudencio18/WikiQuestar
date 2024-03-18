@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+/* title */
+h1 {
+    font-weight: 700;
+}
+
+
+/* buttons */
+.st-emotion-cache-7ym5gk,
+.st-emotion-cache-19rxjzo {
+    width: 30%;
+    height: 40px;
+    background-color: #24d878;
+    color: #fff;
+    transition: 0.4s;
+    border: none;
+}
+
+
+.st-emotion-cache-7ym5gk:hover,
+.st-emotion-cache-19rxjzo:hover {
+    background-color: #1dc56b;
+    color: #fff;
+    border: none;
+}
+
+.st-emotion-cache-7ym5gk:focus,
+.st-emotion-cache-19rxjzo:focus {
+    color: #fff !important;
+    box-shadow: none;
+    border: none;
+}
+
+/* form titles */
+.st-emotion-cache-nahz7x li,
+.st-emotion-cache-5rimss li {
+    margin: 0.2em 0px 0.2em 1.2em;
+    padding: 0px 0px 0px 0.6em;
+    font-size: 1.5rem;
+}
+
+footer {
+    display: none;
+}
