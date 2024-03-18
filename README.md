@@ -1,7 +1,7 @@
 # WikiQuestar | An Answer-Aware Question Generation Application Using Wikipedia as the Knowledge Source
-**WikiQuestar** is a groundbreaking system that leverages the potential of machine learning and Wikipedia to generate thought-provoking questions. This system employs advanced natural language processing techniques to extract valuable information from Wikipedia articles, thereby enhancing the quality of generated questions.
+**WikiQuestar** is a groundbreaking system that leverages the potential of machine learning and Wikipedia to **generate thought-provoking questions**. This system employs advanced natural language processing techniques to **extract valuable information from Wikipedia articles**, thereby enhancing the quality of generated questions.
 
-The project is designed to enhance learning outcomes, foster comprehension, and broaden knowledge acquisition. It offers users a dynamic platform for generating questions that are tailored to specific topics or areas of interest. Whether employed in educational settings, content creation, or research, WikiQuestar serves as a powerful tool that stimulates critical thinking and deepens understanding.
+The project is designed to **enhance learning outcomes**, **foster comprehension**, and **broaden knowledge acquisition**. It offers users a dynamic platform for generating questions that are tailored to specific topics or areas of interest. Whether employed in educational settings, content creation, or research, WikiQuestar serves as a powerful tool that stimulates critical thinking and deepens understanding.
 
 # Tools Used
 WikiQuestar is implemented using the following Python packages:
@@ -106,7 +106,7 @@ The SQuAD dataset is designed to train and evaluate machine learning models to c
 
 # Methodology
 ## Dataset Preparation
-1. In my research, I incorporated a highlight token `<h>` into the context `c` to better highlight the answer `a`. This was done in accordance with the work of Chan and Fan (2019), where the token `<h>` was introduced to represent the answer within the context. The resulting sequence `x` is represented as follows:
+1. In my research, I incorporated a highlight token `<h>` into the context `c` to better highlight the answer `a`. This was done following the work of Chan and Fan (2019), where the token `<h>` was introduced to represent the answer within the context. The resulting sequence `x` is represented as follows:
 
 $x = [ c_1, ..., \lt h\gt , a_1, ..., a_a, \lt h\gt , ..., c_c ]$
 
