@@ -17,7 +17,7 @@ WikiQuestar is implemented using the following Python packages:
 
 # Usage
 ## Running Demo:
-https://github.com/MohammedAly22/GenQuest-RAG/assets/90681796/f05a1968-d314-4c4a-a11c-37e5c018e72c
+https://github.com/MohammedAly22/WikiQuestar/assets/90681796/b55d3b72-d3dc-4bcd-a01d-91a2d7327c6a
 
 ## Usage as a high-level Pipeline:
 1. Define some useful functions for highlighting the answer in the paragraph and preparing the instruction prompt that will be fed to the model: 
