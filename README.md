@@ -16,6 +16,9 @@ WikiQuestar is implemented using the following Python packages:
 | Streamlit | A popular data deployment Python package |
 
 # Usage
+Demo link: https://wikiquestar.streamlit.app/
+Hugging Face Model Card: https://huggingface.co/mohammedaly22/t5-small-squad-qg-v2 
+
 ## Running Demo:
 https://github.com/MohammedAly22/WikiQuestar/assets/90681796/b55d3b72-d3dc-4bcd-a01d-91a2d7327c6a
 
